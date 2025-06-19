@@ -1,0 +1,28 @@
+/* Estilos adicionais para a calculadora */
+/* Este arquivo pode conter estilos específicos que não estão no globals.css */
+
+.calculator-button {
+  transition: all 0.2s ease-in-out;
+}
+
+.calculator-button:hover {
+  transform: scale(1.05);
+}
+
+.calculator-button:active {
+  transform: scale(0.95);
+}
+
+.calculator-display {
+  font-family: 'Courier New', monospace;
+  letter-spacing: 1px;
+}
+
+.history-item {
+  border-left: 3px solid #3b82f6;
+  padding-left: 8px;
+}
+
+.history-item:hover {
+  background-color: rgba(59, 130, 246, 0.1);
+}
